@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Tic Tac Toe</title>
+    <title>Tres en raya</title>
 </head>
 <body>
     <h1>Tres en raya</h1>
