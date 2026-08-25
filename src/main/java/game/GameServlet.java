@@ -45,13 +45,13 @@ public class GameServlet extends HttpServlet {
 
         
         if (winner == GamePlayer.USER) {
-            request.setAttribute("winner", "ERES EL GANADOR");
+            request.setAttribute("winner", "ERES EL GANADOR, POR FIN GANAS ALGO!");
         } else if (winner == GamePlayer.COMPUTER) {
-            request.setAttribute("winner", "EL ORDENADOR");
+            request.setAttribute("winner", "EL ORDENADOR GANA, CHAI TE GANO UNA MAQUINA!");
         } else {
            
             if (!game.hasEmptyCell()) {
-                request.setAttribute("winner", "NADIE");
+                request.setAttribute("winner", "NADIE GANA JMMM");
             }
         }
 
